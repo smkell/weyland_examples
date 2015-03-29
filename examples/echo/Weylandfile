@@ -1,0 +1,5 @@
+package 'echo' do |pkg|
+	pkg.target 'hello' do |t|
+		t.echo 'Hello from Weyland!'
+	end
+end
