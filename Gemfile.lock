@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/smkell/weyland.git
-  revision: c9db39f8eb5b6cd553b6d4a3fc9bd5675c4832c3
+  revision: 98f241ba4d9294a2925304f7b03dd7b25f884465
   specs:
-    weyland (0.1.0)
+    weyland (0.2.0)
       thor
 
 PATH
@@ -22,5 +22,5 @@ PLATFORMS
 DEPENDENCIES
   bundler
   rake (~> 10.0)
-  weyland (~> 0.1)!
+  weyland (~> 0.2)!
   weyland_examples!

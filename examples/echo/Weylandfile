@@ -1,5 +1,7 @@
 package 'echo' do |pkg|
 	pkg.target 'hello' do |t|
-		t.echo 'Hello from Weyland!'
+		t[:greet] = proc do |a|
+			a.echo 'Hello from Weyland!'
+		end
 	end
 end
