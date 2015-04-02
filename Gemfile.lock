@@ -1,0 +1,26 @@
+GIT
+  remote: git://github.com/smkell/weyland.git
+  revision: c9db39f8eb5b6cd553b6d4a3fc9bd5675c4832c3
+  specs:
+    weyland (0.1.0)
+      thor
+
+PATH
+  remote: .
+  specs:
+    weyland_examples (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.4.2)
+    thor (0.19.1)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  bundler
+  rake (~> 10.0)
+  weyland (~> 0.1)!
+  weyland_examples!
